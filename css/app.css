@@ -8,6 +8,78 @@ html {
     box-sizing: inherit;
 }
 
+.modal_background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.modal_body{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    background: #ffffff;
+    transform: translate(-50%,-70%);
+    z-index: 3;
+}
+.modal_close{
+    color: red;
+}
+.modal_close:hover{
+    background-color: #2e3d49;
+}
+
+.modal_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.4rem;
+
+    border-bottom: 2px solid black;
+}
+
+.modal_close{
+    font-size: 2rem;
+}
+.modal_performance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.modal_time{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal_stars{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.modal_moves{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+.modal_buttons{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.hide{
+    display: none;
+}
+
+
 html,
 body {
     width: 100%;
