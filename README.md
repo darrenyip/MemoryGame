@@ -1,5 +1,5 @@
 # MemoryGame
-
+点击下面link 玩玩这个小游戏吧~
 https://memgame-ae79f.firebaseapp.com/
 
 ##How to Play
